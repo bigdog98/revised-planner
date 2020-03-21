@@ -1,0 +1,95 @@
+.sticky-note {
+    background-color:yellow;
+    width: auto;
+    min-height:250px;
+    max-height:250px;
+    padding:35px 10px 0px 10px;
+    font-size:22px;
+    text-align:center;
+    border-bottom-right-radius: 60px 5px;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+    font-family: 'Merienda One', Helvetica, sans-serif;
+}
+#sticky-widget {
+    background-image: url("../images/stickybg.jpg");
+    padding: 10px 25px 15px 25px;
+    margin:5px;
+    border: 7px solid lightgray;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+/* common title styles */
+.title {
+    margin-top:10px;
+    padding:5px;
+    border: 2px black solid;
+}
+
+.sticky-title {
+    background-color:lightblue;
+}
+.nasa-title {
+    background-color:lightgray;
+}
+
+.stock-title {    
+    background-color: green;
+    color: #fff
+}
+
+.stock-background {
+    /* background: url(../images/Stock\ Picture.jpg); */
+    background: url(../images/stock-market.jpg) no-repeat center;
+    background-size: cover;
+    color:#fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.table-row {
+    display: flex;
+}
+.table-item {
+    margin-left: 25px;
+    /* border: 2px black solid; */
+}
+.todo-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:lightcyan;
+    border: 2px black solid;
+}
+#todo-widget {
+    border: 25px solid #654321;
+    border-radius: 15px;
+    padding:15px;
+    margin-bottom:10px;
+}
+#meme-widget {
+    padding: 5px;
+
+}
+.meme-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:rgb(0, 255, 76);
+    border: 2px black solid;
+}
+.google-title {
+    margin-top:10px;
+    padding:5px;
+    background-color:red;
+    border: 2px black solid;
+}
+.responsive-iframe {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+.responsive-iframe iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+ }
